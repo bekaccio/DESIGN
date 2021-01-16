@@ -1,0 +1,16 @@
+.m-f{
+   margin: 75px 0 100px;
+}
+
+.m-ff{
+    width: 255px;
+    height: 120px;
+}
+
+
+@media screen and (max-width:576px){
+    .m-f{
+        text-align: center;
+       
+    }
+}
