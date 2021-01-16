@@ -1,6 +1,6 @@
 .container {
   max-width: 1128px;
-  margin: auto;
+  margin: 0 auto;
   justify-content: space-between;
   align-items: center;
 }

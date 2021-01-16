@@ -1,0 +1,49 @@
+.footer{
+   background-color:  #34547A;
+   height: 151px;
+}
+.f__t{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    color: #FFFFFF;
+    padding: 50px 0 20px;
+}
+.f__d{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;
+    padding-bottom: 50px;
+   
+}
+ .f__vk, .f__d {
+    cursor: pointer;
+    vertical-align: top;
+   
+}
+.f__vk{
+    text-align: right;
+    margin-top: -110px;
+}
+.footer img{
+    padding-right: 21px; 
+    text-align: right;
+}
+
+@media screen and (max-width:576px){
+    .footer{
+        padding: 0 10px 20px 10px;
+        height: 200px;
+        text-align: center;
+    }
+    .f__vk{
+        text-align: center;
+        margin: auto;
+        
+    }
+}
