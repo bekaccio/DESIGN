@@ -4,13 +4,19 @@
   list-style-type: none;
   margin-top: 28px;
 }
+.pics__list{
+  display: flex;
+  flex-wrap: wrap;
+}
 .pics li{
     display: inline-block;
     position: relative;
+    width: 25%;
 }
 
 .pics__img{
-    width: 379px;
+    
+    width: 100%;
 }
 .pics--1 {
   position: absolute;

@@ -41,7 +41,7 @@ margin-bottom: 65px;
 }
 .web--3{
     margin: 20px 0 50px 289px;
-    padding: 18px 325px 150px 24px;
+    padding: 18px 25px 143px 20px;
     outline: none;
     border: none;
     font-weight: normal;
@@ -49,6 +49,9 @@ margin-bottom: 65px;
     line-height: 22px;
     color: #22262A;
     border-radius: 2px;
+    width: 485px;
+
+
 }
 .web__btn{
     padding: 15px 30px;
