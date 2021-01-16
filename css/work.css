@@ -1,0 +1,28 @@
+.work {
+    padding: 100px 0 ;
+    background: #EEEFF1;
+}
+.work__description {
+    margin: 50px auto 57px;
+    text-align: center;
+}
+.work__images {
+    max-width: 1110px; 
+   display: block;
+  position: relative;
+}
+.work__span{
+    position: absolute;
+   display: none;
+   left: 45%;
+ 
+   width: 0px;
+   height: 0px;
+   transform: translateY(-350px);
+   
+}
+.work__img:hover .work__span{
+display: block;
+width: 100px;
+height: 100px;
+} 

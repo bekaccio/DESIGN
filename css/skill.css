@@ -1,0 +1,67 @@
+.skill {
+    margin: 102px 0 102px;
+}
+.skill__title{
+    padding: 80px 0 10px;
+    text-align: left;
+    margin: 0;
+}
+.skill_progress {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.skill_progress li {
+    padding-bottom: 28px;
+}
+.skill__bar {
+    background: #C4C4C4;
+    height: 4px;    
+    display: block;
+    max-width: 445px;
+}
+.skill__bar span {
+    height: 4px;
+    background: #34547A;
+    float: left;
+}
+.skill__bar :hover {
+    cursor: pointer;
+}
+.skill__photoshop  {
+    width: 75%;
+    animation: skill__photoshop 5s;
+}
+.skill__premiere {
+    width: 35%;
+    animation: skill__premiere 5s;
+}
+.skill__illustrator {
+    width: 90%;
+    animation: skill__illustrator 5s;
+}
+
+@keyframes skill__photoshop{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 75%;
+    }
+}
+@keyframes skill__premiere{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 35%;
+    }
+}
+@keyframes skill__illustrator{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}

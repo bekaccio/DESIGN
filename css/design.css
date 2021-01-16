@@ -1,0 +1,19 @@
+.design {
+    padding: 140px 0 146px;  
+    background-color: #eeeff1;
+}
+.title {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 79px;
+    color: #000000;
+    margin: 0;
+}
+
+.design__image {
+    max-width: 357px;
+    margin: 30px 130px 0 100px;
+}
+.design__description {
+    margin: 40px 0px 60px;
+}
