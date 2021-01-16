@@ -1,0 +1,41 @@
+header{
+    background-color: #eeeff1;
+}
+.header__inner {
+    padding-top: 57px;
+    display: flex;
+   
+}
+.header__logo {
+    margin-right: 398px;
+}
+.nav__list {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.nav__link {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.1em;
+    color: #000000;
+    
+}
+.nav__link:hover {
+color: #34547A;
+}
+.nav__item {
+    margin-right: 42px;
+}
+
+.nav__item:last-child {
+    margin-right: 0;
+  }
+
+
