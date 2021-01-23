@@ -17,3 +17,17 @@
 .design__description {
     margin: 40px 0px 60px;
 }
+
+@media screen and (max-width:576px){
+    .design__image{
+        text-align: center;
+        margin: 30px 15px;
+    }
+    .title{
+        text-align: center;
+    }
+    .design__description{
+        text-align: center;
+    }
+    
+}

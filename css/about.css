@@ -24,3 +24,13 @@
 .about__img:last-child {
     margin-right: 0px;
 }
+ @media screen and (max-width:576px){
+     .about__img{
+         margin: auto;
+     }
+     .about__items{
+         height: 365px;
+         padding: 20px 0;
+         text-align: center;
+     }
+ }

@@ -65,3 +65,13 @@
         width: 90%;
     }
 }
+
+@media screen and (max-width:576px){
+    .skill__title{
+        text-align: center;
+    }
+    .skill__img{
+        max-width: 400px;
+        background-size: cover;
+    }
+}

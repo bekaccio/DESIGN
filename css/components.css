@@ -40,3 +40,21 @@ body {
   letter-spacing: 0.1em;
   color: #FFFFFF;
 }
+
+@media screen and (max-width:576px){
+  .col-6{
+    width: 100%;
+  }
+  .container{
+    padding: 15px 15px;
+  }
+  .row{
+    display: block;
+  }
+  .button{
+    
+  }
+  .section__title{
+    text-align: center;
+  }
+}

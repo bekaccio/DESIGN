@@ -6,9 +6,7 @@ header{
     display: flex;
    
 }
-.header__logo {
-    margin-right: 398px;
-}
+ 
 .nav__list {
     list-style: none;
     display: flex;
@@ -39,3 +37,11 @@ color: #34547A;
   }
 
 
+@media screen and (max-width:576px){
+    .nav__list{
+        display: none;
+    }
+    .header a img{
+        text-align: center;
+    }
+}

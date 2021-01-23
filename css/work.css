@@ -26,3 +26,14 @@ display: block;
 width: 100px;
 height: 100px;
 } 
+
+
+@media screen and (max-width:576px){
+    .work__img{
+        max-width: 400px;
+    }
+    .work__images{
+        max-width: 400px;
+        text-align: center;
+    }
+}
